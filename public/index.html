@@ -2,21 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styles.css">
     <title>Document</title>
 </head>
 <body>
     <div class="container">
         <div class="fetch-box">
 
-            <form id="search-box" method="get" action="/submit">
+            <form id="search-box" method="POST" action="/set">
                 <label for="charname" id="label"><h3>Enter the <span id="inside">Character</span> name</h3></label><br>
-                <input type="text" name="charname" id="nameip"><br>
+                <input type="text" name="name" id="nameip"><br>
                 <button type="submit" class="btn">Submit</button>
             </form>
             
         </div>
     </div>
-    <script src="./index.js"></script>
+    <script src="../index.js"></script>
 </body>
 </html>
