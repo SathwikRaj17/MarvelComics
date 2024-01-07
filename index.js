@@ -17,7 +17,7 @@ app.listen("3000",function(req,res)
 
 app.get("/",function(req,res)
 {
-    res.sendFile(pt+"/public/index.html",pt+"/public/style.css",pt+"/public/Resources")
+    res.sendFile(pt+"/public/index.html",pt+"/public/style.css")
 })
 
 async function chargen(charname) {
@@ -31,6 +31,7 @@ async function chargen(charname) {
       console.error("Error fetching data:", error);
       throw new Error("Failed to fetch data");
     }
+
   }
   
 app.post("/set",function(req,res)
@@ -38,6 +39,7 @@ app.post("/set",function(req,res)
     const a=req.body["name"];
     console.log(a);
     chargen(a);
+    res.sendFile(pt+"/public/new.html",pt+"/public/istyle.css")
 })
 
 // const pk="b6c3f2617e4c10fa730ba5386e70f97d";
