@@ -63,6 +63,11 @@ body
     color: white;
     cursor: pointer;
 }
+.btn:click
+{
+    background-color: black;
+    color: white;
+}
 #inside
 {
     color: black;
