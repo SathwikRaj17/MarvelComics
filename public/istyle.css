@@ -28,7 +28,7 @@ body
     
     height: 40vh;
     width: 100%;
-    margin-top: 6vh;
+    margin-top: 3vh;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     display: flex;
@@ -45,7 +45,7 @@ h3
 {
     font-family: 'Roboto', sans-serif;
     color: white;
-    font-size: 40px;
+    font-size: 30px;
 }
 img
 {
