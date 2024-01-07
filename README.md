@@ -2,6 +2,6 @@
 <hr>
 <ul>
   <li>Search for your favourite Marvel Character </li>
-<li>Get Their description and Comic Image</li>
+  <li>Get Their description and Comic Image</li>
 </ul>
 
