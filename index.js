@@ -22,11 +22,10 @@ app.get("/",function(req,res)
 
 async function chargen(charname) {
     const url = `https://gateway.marvel.com/v1/public/characters?name=${charname}&ts=1&apikey=b6c3f2617e4c10fa730ba5386e70f97d&hash=ea81d9d362afd16ba3d5d4b01e930ac3`;
-  
     try {
       const response = await fetch(url);
       const data = await response.json();
-      console.log(data.data.results); 
+      console.log(data.data.results[0].thumbnail); 
       return data; 
     } catch (error) {
       console.error("Error fetching data:", error);
