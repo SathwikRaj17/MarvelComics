@@ -1,0 +1,14 @@
+{
+  "name": "marvel",
+  "version": "1.0.0",
+  "description": "Marvel Comics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sathwik Raj",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
