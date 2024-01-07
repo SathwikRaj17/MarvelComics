@@ -3,5 +3,67 @@ body
     background-image: url("./Resources/pxfuel.jpg" );
     background-repeat: no-repeat;
     background-size:cover;
+}
+.fetch-box
+{
+    height: 550px;
+    width: 400px;
+    margin-top: 3%;
+    margin-left: 50px;
+    background:transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid black;
+}
+#nameip[type=text]
+{
+    border-radius: 10px;
+    padding: 10px;
+    width: 40%;
+    border: 0px;
+    margin-top: 60px;
+    outline: 0px;
+    transition: 0.3s;
+    margin-bottom: 10px;
+}
+#nameip[type=text]:focus
+{
+    width: 70%;
+    border: 3px solid red;
+}
+#label
+{
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif; 
+    color: whitesmoke;
+}
 
+.container
+{
+    display: flex;
+    justify-content: center;
+}
+.btn
+{
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 120px;
+    margin-left: 1px;
+    transition: .3s;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn:hover
+{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#inside
+{
+    color: black;
 }
